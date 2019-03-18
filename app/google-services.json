@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "699861179589",
+    "firebase_url": "https://letschaton-6774c.firebaseio.com",
+    "project_id": "letschaton-6774c",
+    "storage_bucket": "letschaton-6774c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699861179589:android:c1abecf409dba284",
+        "android_client_info": {
+          "package_name": "com.example.iverson.letschaton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699861179589-kpdab84cl7101uq1dmsqgqn5d2h0o4na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iverson.letschaton",
+            "certificate_hash": "aaa7fb55449786c6dc66c75a3924a5325d1b7f47"
+          }
+        },
+        {
+          "client_id": "699861179589-2q086dbtfssg7nnt2496tge5uf0uuein.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxksMQyZYWo5XmE1Dvc5tF9XR37fluww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699861179589-2q086dbtfssg7nnt2496tge5uf0uuein.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
