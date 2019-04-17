@@ -1,10 +1,25 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
 apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.iverson.letschaton"
+        applicationId "com.rename.rename1.letschaton"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
@@ -36,4 +51,5 @@ dependencies {
     implementation('com.frosquivel:magicalcamera:6.0.0@aar') {
         transitive = false;
     }
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
 }

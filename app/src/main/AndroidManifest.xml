@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.iverson.letschaton">
+    package="com.rename.rename1.letschaton">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".views.login.LoginActivity"
+            android:name="com.rename.rename1.letschaton.views.login.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Lets Chat On"
             android:theme="@style/LoginTheme">
@@ -26,11 +26,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".views.main.MainActivity"
+            android:name="com.rename.rename1.letschaton.views.main.MainActivity"
             android:configChanges="orientation|screenSize|keyboard"
             android:label="LetsChatOn"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".views.chat.ChatActivity"></activity>
+        <activity android:name="com.rename.rename1.letschaton.views.chat.ChatActivity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="37b0007985a9fabbac681c256593bcc54386d71f" />
     </application>
 
 </manifest>

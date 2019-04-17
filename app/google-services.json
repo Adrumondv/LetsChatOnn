@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:699861179589:android:c1abecf409dba284",
         "android_client_info": {
-          "package_name": "com.example.iverson.letschaton"
+          "package_name": "com.rename.rename1.letschaton"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "699861179589-kpdab84cl7101uq1dmsqgqn5d2h0o4na.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.iverson.letschaton",
+            "package_name": "com.rename.rename1.letschaton",
             "certificate_hash": "aaa7fb55449786c6dc66c75a3924a5325d1b7f47"
           }
         },

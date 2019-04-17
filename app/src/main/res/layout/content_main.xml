@@ -9,7 +9,7 @@
         android:id="@+id/chatsFragment"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:name="com.example.iverson.letschaton.views.main.chats.ChatsFragment" />
+        android:name="com.rename.rename1.letschaton.views.main.chats.ChatsFragment" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

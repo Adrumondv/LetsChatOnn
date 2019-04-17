@@ -22,7 +22,7 @@
 
         <fragment
             android:id="@+id/drawerFragment"
-            android:name="com.example.iverson.letschaton.views.main.drawer.DrawerFragment"
+            android:name="com.rename.rename1.letschaton.views.main.drawer.DrawerFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
